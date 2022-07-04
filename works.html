@@ -8,9 +8,14 @@
   <title>Misaki'sPortfolio</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <script src="script.js"></script> 
+  <script src="js/script.js"></script> 
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="js/lightbox.min.js"></script>
+		<link rel="stylesheet" href="css/lightbox.min.css" >
+		
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -19,7 +24,7 @@
   <div id="wrap">
 
     <header>
-      <h1>Misaki'sPortfolio</h1>
+      <h1>Misaki's Portfolio</h1>
     </header>
 
       <input type="checkbox" id="navBtn"> 
@@ -27,25 +32,17 @@
       
     <nav class="main-menu">
       <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">works</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="works.html">works</a></li>
+        <li><a href="contacts.html">contacts</a></li>
       </ul>
     </nav>
 
     <main>
 
       <section>
-
         <article>
-          <h2>About Me</h2>
-          <pre>ようこそ私のポートフォリオサイトへお越しくださいました。
-私は福岡の美大生です。このサイトでは、二年生時に制作した作品を掲載しています。
-ぜひ、ご覧ください！</pre>
-        </article>
-
-        <article>
-          <h2>works</h2>
+          <h2>slider</h2>
 		<div id="slideContainer">
     <ul class="slider">
       <li><img src="images/01.JPG" title="Sky01"></li>
@@ -53,26 +50,34 @@
       <li><img src="images/03.JPG" title="Cloud01"></li>
       <li><img src="images/04.JPG" title="Cloud02"></li>
       <li><img src="images/05.JPG" title="Cherry_Blossom"></li>
-      <li><img src="images/06.JPG" title="Perfume_"></li>
+      <li><img src="images/06.JPG" title="Perfume"></li>
       <li><img src="images/07.JPG" title="Light"></li>
-      <li><img src="images/08.JPG" title="Luffy_"></li>
+      <li><img src="images/08.JPG" title="Luffy"></li>
       <li><img src="images/09.JPG" title="tomatoes"></li>
     </ul>
-		
         <article>
-		<h2>contacts</h2>
-		<ul> 
-	<li><a href="https://www.instagram.com/misaakoo/" target="_blank">Instagram</a></li> 
-		</ul> 					
+		<h2>lightbox</h2>
+		<ul id="ImgSet">
+      <li><a href="images/01.JPG" data-lightbox="image" data-title="Sky01"><img src="images/01.JPG"></a></li>
+      <li><a href="images/02.JPG" data-lightbox="image" data-title="Sky02"><img src="images/02.JPG"></a></li>
+      <li><a href="images/03.JPG" data-lightbox="image" data-title="Cloud01"><img src="images/03.JPG"></a></li>
+    </ul>	
+		<li><a href="images/04.JPG" data-lightbox="image" data-title="Cloud02"><img src="images/04.JPG"></a></li>
+      <li><a href="images/05.JPG" data-lightbox="image" data-title="Cherry_Blossom"><img src="images/05.JPG"></a></li>
+      <li><a href="images/06.JPG" data-lightbox="image" data-title="Perfume"><img src="images/06.JPG"></a></li>
+    </ul>	
+	<li><a href="images/07.JPG" data-lightbox="image" data-title="Light"><img src="images/07.JPG"></a></li>
+      <li><a href="images/08.JPG" data-lightbox="image" data-title="Luffy"><img src="images/08.JPG"></a></li>
+      <li><a href="images/09.JPG" data-lightbox="image" data-title="tomatoes"><img src="images/09.JPG"></a></li>
+    </ul>						
         </article>
       </section>
 
       <aside>
         <nav class="sub-menu">
          <ul>
-           <li><a href="#">submenu1</a></li>
-           <li><a href="#">submenu2</a></li>
-           <li><a href="#">submenu3</a></li>
+           <li><a href="works.html">Photography</a></li>
+           <li><a href="movies.html">Movies</a></li>
         </ul>
       </nav>
       </aside>
@@ -80,7 +85,7 @@
     </main>
 
     <footer>
-      <p>&copy; SampleSite</p>
+      <p>&copy; Misaki's Portfolio</p>
     </footer>
 
   </div>
