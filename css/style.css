@@ -227,7 +227,15 @@ label {
   #wrap { 
     width: 84%; 
     max-width: 1280px; 
+  }
+
+  #ImgSet {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #ImgSet li {
+    width: 33%;
   } 
 
-
-} 
+}
