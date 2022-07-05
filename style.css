@@ -5,6 +5,24 @@ h1 {
   text-align: center;
   font-size: 1.5rem;
 }
+#ImgSet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+#ImgSet li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#ImgSet img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
 
 #slideContainer {
   max-width:800px;
@@ -26,7 +44,7 @@ ul {
 #wrap {
   width: 100%;
 	margin: 0 auto;
-	position: relative; 
+	/*position: relative; */
 }
 
 header {
@@ -188,55 +206,36 @@ label {
 } 
 
 @media all and (min-width: 600px) { 
-
- 
-
   .main-menu ul { 
-
     display: flex; 
-
   } 
-
- 
-
   .main-menu ul li { 
-
     text-align: left; 
-
   } 
-
- 
 
   main { 
-
     display: flex; 
-
   } 
-
- 
 
   .sub-menu ul li { 
-
     text-align: left; 
-
   } 
 
- 
-
 } 
-
- 
 
 @media all and (min-width: 1025px) { 
-
   #wrap { 
-
     width: 84%; 
-
     max-width: 1280px; 
+  }
 
+  #ImgSet {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #ImgSet li {
+    width: 33%;
   } 
 
-  
-
-} 
+}
