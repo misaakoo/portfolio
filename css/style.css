@@ -48,13 +48,13 @@ ul {
 }
 
 header {
-  background: #333;
+  background: #001e43;
   color: #FFF;
   padding: 20px;
 }
 
 .main-menu {
-  background: #333;
+  background: #202f55;
 }
 
 .main-menu ul li {
@@ -107,7 +107,7 @@ aside {
 }
 
 footer {
-  background: #333;
+  background: #001e43;
   color: #FFF;
   padding: 20px;
   text-align: center;
