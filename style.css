@@ -48,13 +48,13 @@ ul {
 }
 
 header {
-  background: #333;
+  background: #f6ad49;
   color: #FFF;
   padding: 20px;
 }
 
 .main-menu {
-  background: #333;
+  background: #f8b862;
 }
 
 .main-menu ul li {
@@ -68,28 +68,28 @@ header {
 }
 
 .main-menu ul li a:hover {
-  background: #222;
+  background: #f19072;
 }
 
 section {
-  background: #EEE;
+  background: #fff1cf;
   flex: 3;
   padding: 20px;
 }
 
 article {
-  background: #FFF;
+  background: #fbfaf5;
   padding: 20px;
   margin-bottom: 20px;  
 }
 
 aside {
-  background: #DDD;
+  background: #fddea5;
   flex: 1;
 }
 
 .sub-menu {
-  background: #999; 
+  background: #f19072; 
 }
 
 .sub-menu ul li {
@@ -103,15 +103,16 @@ aside {
 }
 
 .sub-menu ul li a:hover {
-  background: #666;
+  background: #f6ad49;
 }
 
 footer {
-  background: #333;
+  background: #f6ad49;
   color: #FFF;
   padding: 20px;
   text-align: center;
 }
+
 
 /*checkbox*/
 .main-menu { 
@@ -190,7 +191,7 @@ label {
 /*close button*/ 
  
 #navBtn:checked + .open { 
-  background: #555; 
+  background: #f39800; 
 } 
  
 #navBtn:checked + .open span { 
