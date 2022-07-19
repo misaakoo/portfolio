@@ -48,13 +48,13 @@ ul {
 }
 
 header {
-  background: #f6ad49;
+  background: #333;
   color: #FFF;
   padding: 20px;
 }
 
 .main-menu {
-  background: #f8b862;
+  background: #333;
 }
 
 .main-menu ul li {
@@ -68,28 +68,28 @@ header {
 }
 
 .main-menu ul li a:hover {
-  background: #f19072;
+  background: #222;
 }
 
 section {
-  background: #fff1cf;
+  background: #EEE;
   flex: 3;
   padding: 20px;
 }
 
 article {
-  background: #fbfaf5;
+  background: #FFF;
   padding: 20px;
   margin-bottom: 20px;  
 }
 
 aside {
-  background: #fddea5;
+  background: #DDD;
   flex: 1;
 }
 
 .sub-menu {
-  background: #f19072; 
+  background: #999; 
 }
 
 .sub-menu ul li {
@@ -103,11 +103,11 @@ aside {
 }
 
 .sub-menu ul li a:hover {
-  background: #f6ad49;
+  background: #666;
 }
 
 footer {
-  background: #f6ad49;
+  background: #333;
   color: #FFF;
   padding: 20px;
   text-align: center;
@@ -191,7 +191,7 @@ label {
 /*close button*/ 
  
 #navBtn:checked + .open { 
-  background: #f39800; 
+  background: #333; 
 } 
  
 #navBtn:checked + .open span { 
